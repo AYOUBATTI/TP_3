@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_id"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="BACK"
+        android:layout_marginTop="650dp"
+        />
+
+    <TextView
+        android:id="@+id/two_activities"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF"
+        android:text=" 2activity "
+        android:textColor="#546E7A"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/my_text"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:text="output text"
+        android:textSize="30dp" />
+
+
+
+
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>
